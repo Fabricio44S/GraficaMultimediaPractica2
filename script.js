@@ -85,7 +85,7 @@ window.addEventListener('resize', () => {
 // });
 
 function mover() {
-    requestAnimationFrame(animacion);
+   // requestAnimationFrame(animacion);
     cubo3.position.z = cubo3.position.z + 1;
     renderizador.render(escena, camara);
 }
